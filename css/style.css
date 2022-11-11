@@ -9,14 +9,14 @@ body {
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #88cd7a;
   text-align: left;
   /* min-width: 500px; */
 }
 
 header {
-  font-family: Work Sans;
-  color: #fff;
+  font-family: 'Quattrocento', serif;
+  color: #1e2f23;
   min-height: 100vh;
   display: flex;
 }
@@ -34,7 +34,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: 'Quattrocento', serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -42,19 +42,23 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: 'Quattrocento', serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #1e2f23;
   padding: 10px 0px 10px 10px;
 }
 
 img {
   width: 100%;
   height: 50vh;
-  object-fit: cover 
+  object-fit: cover
+}
+
+a {
+  color: #88cd7a;
 }
 
 .wrapper {
@@ -65,9 +69,9 @@ img {
 }
 
 .bio {
-  color: #ffffff;
+  color: #2a5034;
   font-size: 24px;
-  font-family: 'Work Sans';
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .buttonBox {
@@ -78,9 +82,9 @@ img {
 
 .myButton {
   border-radius: 28px;
-  border: 1px solid #ffffff;
+  border: 1px solid #1e2f23;
   cursor: pointer;
-  color: #ffffff;
+  color: #1e2f23;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
@@ -88,7 +92,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#a2d897;
 }
 
 .myButton:active {
@@ -118,24 +122,24 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #4a4a4a;
+  color: #2a5034;
   position: relative;
   bottom: 5px;
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: 'Quattrocento Sans', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: #2a5034;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #4a4a4a;
 }
